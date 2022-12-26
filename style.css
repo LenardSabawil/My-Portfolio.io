@@ -390,6 +390,17 @@ header.sticky{
   font-weight: 500;
   color: #fff;
 }
+.skills{
+  background: var(--bg-color);
+}
+.skills-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 4.5rem;
+  cursor: pointer;
+}
 
 .portfolio{
   background: var(--secound-bg-color);
