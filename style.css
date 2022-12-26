@@ -114,27 +114,6 @@ section{
 span{
   color: var(--main-color);
 }
-.yb-graphic-1{
-  position: absolute;
-    top: -90px;
-    right: -60px;
-    display: block;
-    width: 420px;
-    height: 420px;
-    border-radius: 300px;
-    transform: rotate(-45deg);
-    background-image: linear-gradient(90deg,#1B4C67 0%,rgba(31,38,103,.9) 100%);
-}
-.yb-graphic-2{
-  position: absolute;
-    top: -100px;
-    right: 80px;
-    display: block;
-    width: 300px;
-    height: 300px;
-    border-radius: 300px;
-    background-image: linear-gradient(-90deg,rgba(49,207,171,.5) 0%,#115881 100%);
-}
 .home-text h3{
   font-size: 25px;
   margin-bottom: 55px;
