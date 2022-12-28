@@ -537,7 +537,7 @@ form textarea{
   }
 }
 
-@media (max-width: 900px){
+@media (max-width: 950px){
   .home{
     height: 120vh;
   }
