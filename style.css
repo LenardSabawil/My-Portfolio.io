@@ -116,7 +116,7 @@ span{
 }
 .home-text h3{
   font-size: 25px;
-  margin-bottom: 55px;
+  margin-bottom: 19px;
 }
 .home-text h4{
   color: var(--main-color);
@@ -128,13 +128,13 @@ span{
   max-width: 100%;
   position: relative;
   margin-bottom: 2.5rem;
-  margin-top: 2.5rem;
+  margin-top: 1px;
 }
 .newslatter form input:first-child{
   display: inline-block;
   width: 100%;
   outline: none;
-  padding: 16px 140px 16px 15px;
+  padding: 19px 140px 16px 15px;
   border: 2px solid var(--main-color);
   border-radius: 30px;
 }
@@ -516,13 +516,13 @@ form textarea{
 
 
 
-@media (max-width: 1270px){
+@media (max-width: 1250px){
   header{
     padding: 18px 4%;
     transition: .2s;
   }
   header.sticky{
-    padding: 10px 4%;
+    padding: 15px 4%;
     transition: .2s;
   }
   section{
@@ -537,9 +537,29 @@ form textarea{
   }
 }
 
-@media (max-width: 990px){
+@media (max-width: 900px){
   .home{
-    height: 85vh;
+    height: 120vh;
+  }
+  .home-text h4{
+    color: var(--main-color);
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .home-text h3{
+    font-size: 15px;
+    margin-bottom: 1px;
+  }
+  .home-text h1{
+    margin: 20px 0px 20px;
+    font-size: var(--h2-font);
+  }
+  .newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+    margin-bottom: 2.5rem;
+    margin-top: 0.9rem;
   }
   #menu-icon{
     display: initial;
