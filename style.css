@@ -555,7 +555,7 @@ form textarea{
     font-size: var(--h2-font);
   }
   .newslatter form{
-    width: 380px;
+    width: 350px;
     max-width: 100%;
     position: relative;
     margin-bottom: 2.5rem;
