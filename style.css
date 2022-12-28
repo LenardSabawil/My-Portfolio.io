@@ -537,7 +537,7 @@ form textarea{
   }
 }
 
-@media (max-width: 950px){
+@media (max-width: 900px){
   .home{
     height: 120vh;
   }
@@ -549,13 +549,14 @@ form textarea{
   .home-text h3{
     font-size: 15px;
     margin-bottom: 1px;
+    letter-spacing: 1px;
   }
   .home-text h1{
     margin: 20px 0px 20px;
     font-size: var(--h2-font);
   }
   .newslatter form{
-    width: 350px;
+    width: 300px;
     max-width: 100%;
     position: relative;
     margin-bottom: 2.5rem;
@@ -613,8 +614,15 @@ form textarea{
   }
   .box img{
     max-width: 100%;
-    width: 760px;
+    width: 300px;
     height: auto;
+  }
+  .row{
+    width: 300px;
+  }
+  .container{
+    width: 300px;
+    
   }
 }
 
